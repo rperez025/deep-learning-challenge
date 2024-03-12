@@ -101,6 +101,9 @@ During the challenge, I referenced the following to aid in my understanding and 
 
 1. Reperformed majority of the class activites by re-watching Dr. A's class instruction.
 2. Reviewed the following instructor videos from Dr. A:
-   * Module 21 Challenge Walkthrough - Deep Learning - Alphabet Soup Charity
+   
+   * [Module 21 Challenge Walkthrough - Deep Learning - Alphabet Soup Charity - Part 1](https://youtu.be/Ca3_ziH4X-8)
+   
+   * [Module 21 Challenge Walkthrough - Deep Learning - Alphabet Soup Charity - Part 2](https://youtu.be/50aFNse9-5I)
 
      I referenced my review of the class activities and the above code in the video for performing my assignment. Specifically, I reviewed and followed along in the video to gain an understanding of its organization and use. I then took that understanding and incorporated my knowledge and practice from the class activities to write my scripts in ["Step_1_and 2.ipynb"](https://github.com/rperez025/deep-learning-challenge/blob/main/Deep%20Learning%20Challenge/Step_1_and_2.ipynb) and ["Step_3.ipynb"](https://github.com/rperez025/deep-learning-challenge/blob/main/Deep%20Learning%20Challenge/Step_3.ipynb).
