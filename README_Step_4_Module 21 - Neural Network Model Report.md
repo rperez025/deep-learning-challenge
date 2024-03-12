@@ -20,6 +20,17 @@ The dataset included the following columns:
 * ASK_AMT—Funding amount requested
 * IS_SUCCESSFUL—Was the money used effectively
 
+Initially (Step 1: Preprocess the Data and Step 2: Compile, Train, and Evaluate the Model), I created a script (["Step_1_and 2.ipynb"](https://github.com/rperez025/deep-learning-challenge/blob/main/Deep%20Learning%20Challenge/Step_1_and_2.ipynb)) to preprocess the data, and then compilied, train, and evaluated the data for use with TensorFlow model. 
+
+Additionally (Step 3: Optimized the Model), I created a second script to optimize the Model by adjusting the input features to ensure that no variables or outliers are causing confusion in the model, for example: 
+* Dropping more or fewer columns.
+* Creating more bins for rare occurrences in columns.
+* Increasing or decreasing the number of values for each bin.
+* Add more neurons to a hidden layer.
+* Add more hidden layers.
+* Use different activation functions for the hidden layers.
+* Add or reduce the number of epochs to the training regimen.
+
 ### Results: 
 Using bulleted lists and images to support your answers, address the following questions:
 
@@ -35,8 +46,12 @@ Using bulleted lists and images to support your answers, address the following q
     * I removed the EIN and NAME features since they do not have a meaningful relationship with the outcome/analysis.
 
 * **Compiling, Training, and Evaluating the Model**
+  
   - How many neurons, layers, and activation functions did you select for your neural network model, and why?
+    * Initiall
+  
   - Were you able to achieve the target model performance?
+  
   - What steps did you take in your attempts to increase model performance?
 
 ### Summary: 
