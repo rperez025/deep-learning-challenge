@@ -24,7 +24,7 @@ Initially (Step 1: Preprocess the Data and Step 2: Compile, Train, and Evaluate 
 
 Additionally (Step 3: Optimized the Model), I created a second script (["Step_3.ipynb"](https://github.com/rperez025/deep-learning-challenge/blob/main/Deep%20Learning%20Challenge/Step_3.ipynb)) to optimize the Model by adjusting the input features to ensure that no variables or outliers are causing confusion in the model, for example:
 
-* Dropping more or fewer columns.
+* Dropping more or fer columns.
 * Creating more bins for rare occurrences in columns.
 * Increasing or decreasing the number of values for each bin.
 * Add more neurons to a hidden layer.
@@ -33,7 +33,7 @@ Additionally (Step 3: Optimized the Model), I created a second script (["Step_3.
 * Add or reduce the number of epochs to the training regimen.
 
 ### Results: 
-Using bulleted lists and images to support your answers, address the following questions:
+Using bulleted lists and images to support your ansrs, address the following questions:
 
 * **Data Preprocessing**
   
@@ -51,7 +51,7 @@ Using bulleted lists and images to support your answers, address the following q
     
     * For Step 1 and 2, removed the EIN and NAME features since they do not have a meaningful relationship with the outcome/analysis.
     
-    * For Step 3, removed EIN again, however, decided to remove STATUS, and SPECIAL_CONSIDERATIONS features since there are small percentages of projects that are in the minority categories.
+    * For Step 3, removed EIN again, hover, decided to remove STATUS, and SPECIAL_CONSIDERATIONS features since there are small percentages of projects that are in the minority categories.
       
 * **Compiling, Training, and Evaluating the Model**
   
@@ -80,14 +80,14 @@ Using bulleted lists and images to support your answers, address the following q
         * 2nd, 3rd, and 4th layers = Sigmoid
       - Epochs = 100
 
-    Initially (Step 1 and 2), we selected the neurons, layers, activation functions, and epochs based on best practices to determine initial evaluation of the model. Upon determining that the model's performance did not exceed the target accuracy of 75%, we modified the neurons, layers, and activation functions to improve the model's performance in achieving a target accuracy exceeding 75%.
+    Initially (Step 1 and 2), I selected the neurons, layers, activation functions, and epochs based on best practices to determine initial evaluation of the model. Upon determining that the model's performance did not exceed the target accuracy of 75%, I modified the neurons, layers, and activation functions to improve the model's performance in achieving a target accuracy exceeding 75%.
   
   - Were you able to achieve the target model performance?
     
     * For Step 1 and 2, the model resulted in 72.8% accuracy, which did not meet the target model performance for higher than 75%. Therefore, performed optimization on the model (Step 3) and achieved 79.2% accuracy, which exceeded the 75% target model performance.
   
   - What steps did you take in your attempts to increase model performance?
-    * For Step 3: Optimization, we performed the following to increase model performance:
+    * For Step 3: Optimization, I performed the following to increase model performance:
       - Maintained the NAME column and continued to drop the EIN column, as well as the STATUS and SPECIAL_CONSIDERATIONS columns.
       - Performed binning procedures over the NAME column.
       - Modified the number of layers, nodes per layer, and activation functions. Please refer to "Compiling, Training, and Evaluating the Model" section above for details.
