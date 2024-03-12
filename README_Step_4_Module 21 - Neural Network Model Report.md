@@ -24,9 +24,15 @@ The dataset included the following columns:
 Using bulleted lists and images to support your answers, address the following questions:
 
 * **Data Preprocessing**
+  
   - What variable(s) are the target(s) for your model?
+    > The target variable for the model is the IS_SUCCESSFUL column.
+    
   - What variable(s) are the features for your model?
+    > The features variables for the model are: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT.
+    
   - What variable(s) should be removed from the input data because they are neither targets nor features?
+    > I removed the EIN and NAME features since they do not have a meaningful relationship with the outcome/analysis.
 
 * **Compiling, Training, and Evaluating the Model**
   - How many neurons, layers, and activation functions did you select for your neural network model, and why?
