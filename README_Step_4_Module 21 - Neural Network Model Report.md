@@ -4,7 +4,7 @@
 
 ### Overview:
 
-The purpose of this analysis is to create a binary classifier that can predict whether applicants will be successful if funded by the nonprofit foudnation, Alphabet Soup. I obtained the "charity_data.csv" dataset from the Alphabet Soup business team. 
+The purpose of this analysis is to create a binary classifier that can predict whether applicants will be successful if funded by the nonprofit foudnation, Alphabet Soup. I obtained the "**charity_data.csv**" dataset from the Alphabet Soup business team. 
 
 The dataset included the following columns:
 
