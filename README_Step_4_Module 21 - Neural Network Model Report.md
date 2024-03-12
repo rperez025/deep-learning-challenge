@@ -57,19 +57,40 @@ Using bulleted lists and images to support your answers, address the following q
   
   - How many neurons, layers, and activation functions did you select for your neural network model, and why?
     
-    * For Step 1, the sequential model included:
-      - Nuerons: 1st layer = 80, 2nd layer = 30, and 3rd layer = 1
+    * For Step 1 and 2, the sequential model included:
+      - Nuerons:
+        * 1st layer = 80
+        * 2nd layer = 30
+        * 3rd layer = 1
       - Layers = 3
-      - Activation functions: 1st and 2nd layers = Rectified Linear Unit ('ReLU') and 3rd layer = Sigmoid
+      - Activation functions:
+        * 1st and 2nd layers = Rectified Linear Unit ('ReLU')
+        * 3rd layer = Sigmoid
+      - Epochs = 100
 
-    * For Step 1, the sequential model included:
-      - Nuerons: 1st layer = 80, 2nd layer = 30, and 3rd layer = 1
-      - Layers = 3
-      - Activation functions: 1st and 2nd layers = Rectified Linear Unit ('ReLU') and 3rd layer = Sigmoid
+    * For Step 3, the sequential model included:
+      - Nuerons:
+        * 1st layer = 100
+        * 2nd layer = 30
+        * 3rd layer = 10
+        * 4th layer = 1
+      - Layers = 4
+      - Activation functions:
+        * 1st layer = ReLU
+        * 2nd, 3rd, and 4th layers = Sigmoid
+      - Epochs = 100
+
+    Initially (Step 1 and 2), we selected the neurons, layers, activation functions, and epochs based on best practices to determine initial evaluation of the model. Upon determining that the model's performance did not exceed the target accuracy of 75%, we modified the neurons, layers, and activation functions to improve the model's performance in achieving a target accuracy exceeding 75%.
   
   - Were you able to achieve the target model performance?
+    
+    * For Step 1 and 2, the model resulted in 72.8% accuracy, which did not meet the target model performance for higher than 75%. Therefore, performed optimization on the model (Step 3) and achieved 79.2% accuracy, which exceeded the 75% target model performance.
   
   - What steps did you take in your attempts to increase model performance?
+    * For Step 3: Optimization, we performed the following to increase model performance:
+      - Maintained the NAME column and continued to drop the EIN column, as well as the STATUS and SPECIAL_CONSIDERATIONS columns.
+      - Performed binning procedures over the NAME column.
+      - Modified the number of layers, nodes per layer, and activation functions. Please refer to "Compiling, Training, and Evaluating the Model" section above for details.
 
 ### Summary: 
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
