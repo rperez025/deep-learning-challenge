@@ -94,3 +94,12 @@ Additionally (Step 3: Optimized the Model), I created a second script (["Step_3.
 ### Summary: 
 
 Overall, the results of the TensorFlow deep learning model indicate that it did increase performance from 72.83% to 79.17% accuracy based on adjusting/increasing the number of neurons and layers, as well as applying different activation functions. I would recommend to use a Random Forest Classifier model as an alternative to the TensorFlow model on the dataset. This is based on fitting and evaluating the Random Forest Classifier (See last section in  ["Step_3.ipynb"](https://github.com/rperez025/deep-learning-challenge/blob/main/Deep%20Learning%20Challenge/Step_3.ipynb)) resulting in 77.76% accuracy. Although it did not exceed the accuracy of the optimized TensorFlow model (79.17%), it still exceeded the target accuracy score of 75%.
+
+### Resources and References:
+
+During the challenge, I referenced the following to aid in my understanding and completion of the assignment:
+
+1. Reperformed majority of the class activites by re-watching Dr. A's class instruction.
+2. Reviewed the following instructor videos from Dr. A:
+   * Module 21 Challenge Walkthrough - Deep Learning - Alphabet Soup Charity
+     I referenced my review of the class activities and the above code in the video for performing my assignment. Specifically, I reviewed and followed along in the video to gain an understanding of its organization and use. I then took that understanding and incorporated my knowledge and practice from the class activities to write my scripts in Crypto_Clustering.ipynbhttps://github.com/rperez025/CryptoClustering/blob/main/Crypto_Clustering.ipynb.).
