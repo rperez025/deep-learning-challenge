@@ -102,4 +102,5 @@ During the challenge, I referenced the following to aid in my understanding and 
 1. Reperformed majority of the class activites by re-watching Dr. A's class instruction.
 2. Reviewed the following instructor videos from Dr. A:
    * Module 21 Challenge Walkthrough - Deep Learning - Alphabet Soup Charity
-     I referenced my review of the class activities and the above code in the video for performing my assignment. Specifically, I reviewed and followed along in the video to gain an understanding of its organization and use. I then took that understanding and incorporated my knowledge and practice from the class activities to write my scripts in Crypto_Clustering.ipynbhttps://github.com/rperez025/CryptoClustering/blob/main/Crypto_Clustering.ipynb.).
+
+     I referenced my review of the class activities and the above code in the video for performing my assignment. Specifically, I reviewed and followed along in the video to gain an understanding of its organization and use. I then took that understanding and incorporated my knowledge and practice from the class activities to write my scripts in ["Step_1_and 2.ipynb"](https://github.com/rperez025/deep-learning-challenge/blob/main/Deep%20Learning%20Challenge/Step_1_and_2.ipynb) and ["Step_3.ipynb"](https://github.com/rperez025/deep-learning-challenge/blob/main/Deep%20Learning%20Challenge/Step_3.ipynb).
