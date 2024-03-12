@@ -22,7 +22,7 @@ The dataset included the following columns:
 
 Initially (Step 1: Preprocess the Data and Step 2: Compile, Train, and Evaluate the Model), I created a script (["Step_1_and 2.ipynb"](https://github.com/rperez025/deep-learning-challenge/blob/main/Deep%20Learning%20Challenge/Step_1_and_2.ipynb)) to preprocess the data, and then compilied, train, and evaluated the data for use with TensorFlow model. 
 
-Additionally (Step 3: Optimized the Model), I created a second script (["Step_3.ipynb"](https://github.com/rperez025/deep-learning-challenge/blob/main/Deep%20Learning%20Challenge/Step_3.ipynb) to optimize the Model by adjusting the input features to ensure that no variables or outliers are causing confusion in the model, for example: 
+Additionally (Step 3: Optimized the Model), I created a second script (["Step_3.ipynb"](https://github.com/rperez025/deep-learning-challenge/blob/main/Deep%20Learning%20Challenge/Step_3.ipynb)) to optimize the Model by adjusting the input features to ensure that no variables or outliers are causing confusion in the model, for example: 
 * Dropping more or fewer columns.
 * Creating more bins for rare occurrences in columns.
 * Increasing or decreasing the number of values for each bin.
