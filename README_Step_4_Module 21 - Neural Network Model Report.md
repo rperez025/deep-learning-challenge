@@ -22,7 +22,8 @@ The dataset included the following columns:
 
 Initially (Step 1: Preprocess the Data and Step 2: Compile, Train, and Evaluate the Model), I created a script (["Step_1_and 2.ipynb"](https://github.com/rperez025/deep-learning-challenge/blob/main/Deep%20Learning%20Challenge/Step_1_and_2.ipynb)) to preprocess the data, and then compilied, train, and evaluated the data for use with TensorFlow model. 
 
-Additionally (Step 3: Optimized the Model), I created a second script (["Step_3.ipynb"](https://github.com/rperez025/deep-learning-challenge/blob/main/Deep%20Learning%20Challenge/Step_3.ipynb)) to optimize the Model by adjusting the input features to ensure that no variables or outliers are causing confusion in the model, for example: 
+Additionally (Step 3: Optimized the Model), I created a second script (["Step_3.ipynb"](https://github.com/rperez025/deep-learning-challenge/blob/main/Deep%20Learning%20Challenge/Step_3.ipynb)) to optimize the Model by adjusting the input features to ensure that no variables or outliers are causing confusion in the model, for example:
+
 * Dropping more or fewer columns.
 * Creating more bins for rare occurrences in columns.
 * Increasing or decreasing the number of values for each bin.
@@ -37,18 +38,34 @@ Using bulleted lists and images to support your answers, address the following q
 * **Data Preprocessing**
   
   - What variable(s) are the target(s) for your model?
-    * The target variable for the model is the IS_SUCCESSFUL column.
+    
+    * For Step 1, 2, and 3, the target variable for the model is the IS_SUCCESSFUL column.
     
   - What variable(s) are the features for your model?
-    * The features variables for the model are: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT.
+    
+    * For Step 1 and 2, the features variables for the model are: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT.
+    
+    * For Step 3, the features variables for the model are: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, and ASK_AMT.
     
   - What variable(s) should be removed from the input data because they are neither targets nor features?
-    * I removed the EIN and NAME features since they do not have a meaningful relationship with the outcome/analysis.
-
+    
+    * For Step 1 and 2, removed the EIN and NAME features since they do not have a meaningful relationship with the outcome/analysis.
+    
+    * For Step 3, removed EIN again, however, decided to remove STATUS, and SPECIAL_CONSIDERATIONS features since there are small percentages of projects that are in the minority categories.
+      
 * **Compiling, Training, and Evaluating the Model**
   
   - How many neurons, layers, and activation functions did you select for your neural network model, and why?
-    * Initiall
+    
+    * For Step 1, the sequential model included:
+      - Nuerons: 1st layer = 80, 2nd layer = 30, and 3rd layer = 1
+      - Layers = 3
+      - Activation functions: 1st and 2nd layers = Rectified Linear Unit ('ReLU') and 3rd layer = Sigmoid
+
+    * For Step 1, the sequential model included:
+      - Nuerons: 1st layer = 80, 2nd layer = 30, and 3rd layer = 1
+      - Layers = 3
+      - Activation functions: 1st and 2nd layers = Rectified Linear Unit ('ReLU') and 3rd layer = Sigmoid
   
   - Were you able to achieve the target model performance?
   
